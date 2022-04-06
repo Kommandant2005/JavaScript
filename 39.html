@@ -1,0 +1,35 @@
+<html>
+<body>
+<h1> JavaScript Switch </h1>
+
+<p id="demo"></p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try It </button>
+
+
+<script>
+function myFunction() {
+ 
+var text;
+var fruits = document.getElementById("myInput").value;
+
+switch (fruits) {
+	case "Banana":
+	text = "Banana is good!";
+	break;
+	case "Orange":
+	text = "I am not a fan of Orange!";
+	break;
+	case "Apple":
+	text = "How would you like them!";
+	break;
+	default:
+	text = "I have never heard of that fruit....!"	
+	}
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
