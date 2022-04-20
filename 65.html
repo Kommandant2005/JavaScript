@@ -1,0 +1,31 @@
+<html>
+<body>
+<h1>JavaScript Numbers.map() </h1>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+
+
+<script>
+const numbers = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400];
+document.getElementById("demo").innerHTML = numbers.map(Math.sqrt);
+document.getElementById("demo1").innerHTML = Math.PI;
+document.getElementById("demo2").innerHTML = Math.pow(5,6);
+document.getElementById("demo3").innerHTML = Math.floor(8.6);
+document.getElementById("demo4").innerHTML = Math.ceil(8.6);
+const numbers1 = [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, 1331, 1728, 2197, 2744, 3375, 4096, 4913, 5832, 6859, 8000];
+document.getElementById("demo5").innerHTML = numbers1.map(Math.cbrt);
+document.getElementById("demo6").innerHTML = Math.sin(Math.PI/6);
+document.getElementById("demo7").innerHTML = Math.cos(Math.PI/3);
+document.getElementById("demo8").innerHTML = Math.tan(Math.PI/3);
+</script>
+
+</body>
+</html>
